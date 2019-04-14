@@ -8,6 +8,8 @@
 
     <name>petclinic</name>
     <packaging>war</packaging>
+    
+    
 
     <properties>
 
@@ -42,6 +44,19 @@
         <cobertura.version>2.7</cobertura.version>
 
     </properties>
+    
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>artifactory-radical-releases</name>
+        <url>http://104.196.209.64:8081/artifactory/pet-clinic</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactory-radical-snapshots</name>
+        <url>http://104.196.209.64:8081/artifactory/pet-clinic</url>
+    </snapshotRepository>
+</distributionManagement>
 
     <dependencyManagement>
         <!-- Import the maven Spring IO Platform Bill Of Materials (BOM) -->
