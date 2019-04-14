@@ -45,6 +45,19 @@
 
     </properties>
     
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>artifactory-radical-releases</name>
+        <url>http://104.196.209.64:8081/artifactory/PetClinic-1</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactory-radical-snapshots</name>
+        <url>http://104.196.209.64:8081/artifactory/PetClinic-1</url>
+    </snapshotRepository>
+</distributionManagement>
+    
     <dependencyManagement>
         <!-- Import the maven Spring IO Platform Bill Of Materials (BOM) -->
         <dependencies>
