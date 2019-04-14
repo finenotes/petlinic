@@ -49,12 +49,12 @@
     <repository>
         <id>central</id>
         <name>artifactory-radical-releases</name>
-        <url>http://104.196.209.64:8081/artifactory/pet-clinic</url>
+        <url>http://104.196.209.64:8081/artifactory/petclinic-2</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>artifactory-radical-snapshots</name>
-        <url>http://104.196.209.64:8081/artifactory/pet-clinic</url>
+        <url>http://104.196.209.64:8081/artifactory/petclinic-2</url>
     </snapshotRepository>
 </distributionManagement>
 
